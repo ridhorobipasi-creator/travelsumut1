@@ -12,13 +12,20 @@ const placeholderImages = [
   'https://media.base44.com/images/public/69bf30b9d53fc5e28bedc065/552c73b5b_generated_77d2c723.png',
 ];
 
+const SEED_REGIONS = [
+  { id: '1', name: 'Danau Toba', description: 'Keajaiban Alam Dunia', image_url: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2' },
+  { id: '2', name: 'Pulau Samosir', description: 'Atmosfer Budaya Batak', image_url: 'https://images.unsplash.com/photo-1518544801976-3e159e50e5bb' },
+  { id: '3', name: 'Bukit Lawang', description: 'Konservasi Orangutan Liar', image_url: 'https://images.unsplash.com/photo-1596401057633-54a8fe8ef647' },
+  { id: '4', name: 'Taman Simalem', description: 'Mutiara Di Atas Awan', image_url: 'https://images.unsplash.com/photo-1582294158913-b5f7e7fdf1ea' },
+];
+
 export default function FeaturedDestinations() {
   const { data: destinations = [] } = useQuery({
     queryKey: ['featured-destinations'],
     queryFn: () => base44.entities.Region.filter({ type: 'destination', featured: true }, '-created_date', 4),
   });
 
-  const displayItems = destinations.length > 0 ? destinations : [];
+  const displayItems = destinations?.data && destinations.data.length > 0 ? destinations.data : SEED_REGIONS;
 
   return (
     <section className="py-20 bg-secondary/50">
