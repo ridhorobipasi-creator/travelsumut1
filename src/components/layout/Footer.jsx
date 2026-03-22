@@ -9,11 +9,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Palmtree className="w-6 h-6 text-primary" />
-              <span className="text-lg font-bold">Nusantara</span>
+              <Palmtree className="w-8 h-8 text-primary" />
+              <span className="text-lg font-bold">Wonderfultoba.com</span>
             </div>
-            <p className="text-sm text-background/60 leading-relaxed">
-              Platform wisata Indonesia terlengkap. Jelajahi keindahan nusantara bersama kami.
+            <p className="text-muted-foreground text-sm">
+              Platform wisata Danau Toba terlengkap. Jelajahi keindahan nusantara bersama kami.
             </p>
           </div>
 
@@ -30,8 +30,8 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider">Kontak</h4>
             <div className="space-y-3">
-              <div className="flex items-center gap-2 text-sm text-background/60">
-                <Mail className="w-4 h-4" /> info@nusantara.id
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <Mail className="w-4 h-4" /> info@wonderfultoba.com
               </div>
               <div className="flex items-center gap-2 text-sm text-background/60">
                 <Phone className="w-4 h-4" /> +62 812 3456 7890
@@ -56,8 +56,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-background/10 mt-12 pt-8 text-center">
-          <p className="text-sm text-background/40">
-            © 2026 Nusantara. Semua hak dilindungi.
+          <p className="text-sm">
+            © 2026 Wonderfultoba.com. Semua hak dilindungi.
           </p>
         </div>
       </div>

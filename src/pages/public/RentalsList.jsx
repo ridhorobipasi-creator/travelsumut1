@@ -117,7 +117,7 @@ export default function RentalsList() {
                       <Button 
                         className="h-14 px-8 rounded-2xl shadow-xl shadow-primary/20 bg-primary hover:bg-primary/90 transition-all gap-2 font-bold text-lg"
                         onClick={() => {
-                          const wamsg = encodeURIComponent(`Halo Admin Nusantara, saya tertarik menyewa mobil ${car.name} (${car.transmission}) dengan harga ${formatPrice(car.price_per_day)}/hari. Mohon info ketersediaannya.`);
+                          const wamsg = encodeURIComponent(`Halo Admin Wonderfultoba, saya tertarik menyewa mobil ${car.name} (${car.transmission}) dengan harga ${formatPrice(car.price_per_day)}/hari. Mohon info ketersediaannya.`);
                           window.open(`https://wa.me/6281234567890?text=${wamsg}`, '_blank');
                         }}
                       >

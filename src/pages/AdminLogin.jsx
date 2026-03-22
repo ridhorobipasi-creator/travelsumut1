@@ -38,7 +38,7 @@ export default function AdminLogin() {
             <Palmtree className="w-8 h-8 text-primary" />
           </div>
           <h2 className="text-3xl font-bold tracking-tight">Login Portal Admin</h2>
-          <p className="text-muted-foreground mt-2">Kelola konten dan pesanan Nusantara</p>
+          <p className="text-muted-foreground mt-2">Kelola konten dan pesanan Wonderfultoba.com</p>
         </div>
 
         <Card className="border-none shadow-xl">

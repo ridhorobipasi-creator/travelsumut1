@@ -39,7 +39,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center gap-2">
             <Palmtree className={`w-7 h-7 ${isTransparent ? 'text-white' : 'text-primary'}`} />
             <span className={`text-xl font-bold tracking-tight ${isTransparent ? 'text-white' : 'text-foreground'}`}>
-              Nusantara
+              Wonderfultoba.com
             </span>
           </Link>
 

@@ -38,7 +38,7 @@ export default function BlogList() {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-6">
            <Badge variant="outline" className="text-primary border-primary/20 bg-primary/5 px-4 py-1 font-bold text-sm tracking-widest uppercase italic">
-              Cerita Dari Nusantara
+              Cerita Dari Wonderfultoba.com
            </Badge>
            <h1 className="text-5xl md:text-7xl font-black italic tracking-tighter leading-none">Jurnal Perjalanan & Tips Wisata</h1>
            <p className="text-xl text-muted-foreground max-w-2xl mx-auto italic">Temukan inspirasi destinasi, panduan budaya, dan kuliner terbaik di Sumatera Utara.</p>
@@ -136,7 +136,7 @@ export default function BlogList() {
                               {article.title}
                            </CardTitle>
                            <CardDescription className="text-sm font-medium line-clamp-3 leading-relaxed text-muted-foreground/80 italic">
-                             {article.excerpt || 'Pelajari lebih dalam tentang pesona Nusantara dan temukan kejutan di setiap perjalanan Anda.'}
+                             {article.excerpt || 'Pelajari lebih dalam tentang pesona Danau Toba dan temukan kejutan di setiap perjalanan Anda.'}
                            </CardDescription>
                         </CardHeader>
                         <CardContent className="px-8 pb-10">
